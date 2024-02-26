@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+    <body>
+        <header>
+            <div class="encabezado"> 
+                <a href="./index.html">Inicio</a>
+                <a href="./pages/calculadora.html">Parte 2</a>
+            </div>
+        </header>
+        <main>
+            <section class="contenedor-menu">
+                <div>
+                    <h1 class="menu-titulo">HAMBURGUESAS</h1>
+                </div>
+                <div class="contenedor-menu-primario">
+                    <div class="hamburguesa carde">
+                        <div>
+                            <h2>Clásica Americana</h2>
+                            <!-- <div>Una jugosa hamburguesa de carne de res a la parrilla, con queso cheddar derretido, lechuga crujiente, tomate fresco y cebolla roja, todo envuelto en un panecillo suave y esponjoso.</div> -->
+                            <div>Precio: $11700</div>
+                            <input type="number" id="cantidad-americana" value="0" min="0">
+                        </div>                        
+                    </div>
+                    <div class="hamburguesa">
+                        <div>
+                            <h2>Delicia BBQ</h2>
+                            <!-- <div>Saborea la combinación perfecta de una hamburguesa de cerdo desmenuzado con salsa barbacoa casera, aros de cebolla crujientes, queso ahumado, y aguacate fresco, todo en un panecillo de brioche.</div> -->
+                            <div>Precio: $11700</div>  
+                            <input type="number" id="cantidad-bbq" value="0" min="0" >                                          
+                        </div>
+                    </div>
+                    <div class="hamburguesa">
+                        <div>
+                            <h2>Picante Mexicana</h2>
+                            <!-- <div>Atrévete con una hamburguesa de carne de res sazonada con especias mexicanas, queso pepper jack derretido, guacamole fresco, jalapeños en rodajas y cebolla morada, todo en un panecillo de maíz.</div> -->
+                            <input type="number" id="cantidad-mexicana" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="hamburguesa">
+                        <div>
+                            <h2>Hawaiana Tropical</h2>
+                            <!-- <div>Sumérgete en sabores tropicales con una hamburguesa de pollo a la parrilla, piña asada, queso suave, lechuga crujiente y una irresistible salsa de mango, servida en un panecillo de coco.</div> -->
+                            <div>Precio: $11700</div>  
+                            <input type="number" id="cantidad-tropical" value="0" min="0" inputmode="none">
+                        </div>
+                    </div>
+                    <div class="hamburguesa">
+                        <div>
+                            <h2>Gourmet de Queso Azul</h2>
+                            <!-- <div>Una opción elegante con una jugosa hamburguesa de ternera, queso azul derretido, champiñones salteados, cebollas caramelizadas y una generosa porción de rúcula fresca, en un panecillo de trufa.</div> -->
+                            <div>Precio: $11700</div>  
+                            <input type="number" id="cantidad-queso" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="hamburguesa">
+                        <div>
+                            <h2>A la Parrilla con Jalapeño</h2>
+                            <!-- <div>Disfruta de una hamburguesa de ternera a la parrilla con queso cheddar picante, jalapeños en rodajas, aguacate cremoso, tomate fresco y mayonesa de cilantro, servida en un panecillo de jalapeño.</div> -->
+                            <div>Precio: $11700</div>  
+                            <input type="number" id="cantidad-jalapeno" value="0" min="0">
+                        </div>
+                    </div>
+                    <div class="hamburguesa">
+                        <div>
+                            <h2>Mediterránea de Cordero</h2>
+                            <!-- <div>Saborea la exquisita combinación de una hamburguesa de cordero con hierbas mediterráneas, queso de cabra desmenuzado, pepino en rodajas, tomate y una salsa de menta, en un panecillo de oliva.</div> -->
+                            <div>Precio: $11700</div>  
+                            <input type="number" id="cantidad-cordero" value="0"min="0">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button id="boton-actualizar" onclick="actualizar()">Actualizar</button>
+                    <input type="text" id="mostrar-total">
+                </div>
+            </section>
+        </main>
+        <div class="pie">
+
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
